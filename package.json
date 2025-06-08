@@ -1,0 +1,30 @@
+{
+  "name": "slozhno-sosredotochitsya-fd",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ishbnv/slozhno-sosredotochitsya-fd#readme",
+  "bugs": {
+    "url": "https://github.com/ishbnv/slozhno-sosredotochitsya-fd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishbnv/slozhno-sosredotochitsya-fd.git"
+  },
+  "license": "ISC",
+  "author": "Ivan Shabanov",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix"
+  },
+  "dependencies": {
+    "prettier": "^3.5.3",
+    "stylelint": "^16.20.0"
+  }
+}
