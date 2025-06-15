@@ -4,23 +4,23 @@
 */
 
 :root {
-  --accent-color: #ff0070;
-  --secondary-color: #DB00FF;
-  --title-color: #ff0070;
-  --title-decor-color: #000028;
-  --article-text-color: #F1B2CE;
-  --decor-color: #ff0070;
-  --button-color: #ff0070;
-  --hover-button-color: rgb(255 0 122 / .4);
-  --text-size: 18px;
-  --cover-image: url(../images/cover-image-dark.png);
-  --font-family: 'IBM Plex mono';
-  --container-padding: 10px;
-  --container-gap: 20px;
-  --card-gap: 10px;
-  --gallery-gap: 10px;
-  --text-line-height: 23.4px;
-  --margin-top: 30px;
-  --block-size: 668px;
-  --corner-element-offset: 10px;
+    --accent-color: #ff0070;
+    --secondary-color: #db00ff;
+    --title-color: #ff0070;
+    --title-decor-color: #000028;
+    --article-text-color: #f1b2ce;
+    --decor-color: #ff0070;
+    --button-color: #ff0070;
+    --hover-button-color: rgb(255 0 122 / 0.4);
+    --text-size: 18px;
+    --cover-image: url(../images/cover-image-dark.png);
+    --font-family: 'IBM Plex mono';
+    --container-padding: 10px;
+    --container-gap: 20px;
+    --card-gap: 10px;
+    --gallery-gap: 10px;
+    --text-line-height: 23.4px;
+    --margin-top: 30px;
+    --block-size: 668px;
+    --corner-element-offset: 10px;
 }

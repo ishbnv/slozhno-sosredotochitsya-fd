@@ -5,16 +5,12 @@
 */
 
 :root.theme-dark {
-  --accent-color: #ff0070;
-  --secondary-color: #DB00FF;
-  --title-color: #ff0070;
-  --title-decor-color: #000028;
-  --article-text-color: #F1B2CE;
-  --decor-color: #ff0070;
-  --button-color: #ff0070;
-  --hover-button-color: rgb(255 0 122 / .4);
-}
-
-.theme-dark .page {
-    /* Вам также нужно будет написать ряд подобных селекторов */
+    --accent-color: #ff0070;
+    --secondary-color: #db00ff;
+    --title-color: #ff0070;
+    --title-decor-color: #000028;
+    --article-text-color: #f1b2ce;
+    --decor-color: #ff0070;
+    --button-color: #ff0070;
+    --hover-button-color: rgb(255 0 122 / 0.4);
 }
