@@ -11,6 +11,7 @@
     --article-text-color: #f1b2ce;
     --decor-color: #ff0070;
     --button-color: #ff0070;
+    --page-bg-cover: #000028;
     --hover-button-color: rgb(255 0 122 / 0.4);
     --text-size: 18px;
     --cover-image: url(../images/cover-image-dark.png);
@@ -23,4 +24,5 @@
     --margin-top: 30px;
     --block-size: 668px;
     --corner-element-offset: 10px;
+    --corner-border: 1px solid var(--decor-color);
 }

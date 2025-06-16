@@ -12,6 +12,7 @@
     --article-text-color: #353430;
     --decor-color: #353430;
     --button-color: #353430;
+    --page-bg-cover: #fff1f7;
     --hover-button-color: rgb(45 49 45 / 0.4);
     --cover-image: url(../images/cover-image-light.png);
 }
@@ -30,7 +31,12 @@
         --article-text-color: #353430;
         --decor-color: #353430;
         --button-color: #353430;
+        --page-bg-cover: #fff1f7;
         --hover-button-color: rgb(45 49 45 / 0.4);
         --cover-image: url(../images/cover-image-light.png);
+    }
+
+    .header__corner-element {
+        display: none;
     }
 }

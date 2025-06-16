@@ -9,6 +9,7 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-color: var(--page-bg-cover);
 }
 
 .container {
@@ -77,11 +78,9 @@
 /* header */
 
 .header {
-    display: grid;
-    grid-template-columns: 1fr;
     grid-template-rows: 2fr min-content 2fr;
     position: relative;
-    block-size: var(--block-size);
+    block-size: min(var(--block-size), 100vh);
     gap: initial;
 }
 
@@ -104,26 +103,28 @@
     box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
-.header::before {
+.header::before,
+.footer::before {
     content: '';
     position: absolute;
     inline-size: 26px;
     block-size: 26px;
     top: var(--corner-element-offset);
     right: var(--corner-element-offset);
-    border-inline-end: 1px solid var(--decor-color);
-    border-block-start: 1px solid var(--decor-color);
+    border-inline-end: var(--corner-border);
+    border-block-start: var(--corner-border);
 }
 
-.header::after {
+.header::after,
+.footer::after {
     content: '';
     position: absolute;
     inline-size: 26px;
     block-size: 26px;
     left: var(--corner-element-offset);
     bottom: var(--corner-element-offset);
-    border-inline-start: 1px solid var(--decor-color);
-    border-block-end: 1px solid var(--decor-color);
+    border-inline-start: var(--corner-border);
+    border-block-end: var(--corner-border);
 }
 
 .header__theme-menu {
@@ -177,31 +178,15 @@
 
 /* header--end */
 
-/* why-section */
-
-.why-section {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-/* why-section--end */
-
 /* reduce-concentrarion */
 
 .reduce-concentrarion-section {
-    display: grid;
-    grid-template-columns: 1fr;
     grid-template-rows: 4;
 }
 
 /* reduce-concentrarion--end */
 
 /* how-to */
-
-.how-to-section {
-    display: grid;
-    grid-template-columns: 1fr;
-}
 
 .how-to-section__col {
     display: grid;
@@ -225,33 +210,10 @@
 /* footer */
 
 .footer {
-    display: grid;
     position: relative;
     justify-content: center;
-    block-size: var(--block-size);
+    block-size: min(var(--block-size), 100vh);
     gap: initial;
-}
-
-.footer::before {
-    content: '';
-    position: absolute;
-    inline-size: 26px;
-    block-size: 26px;
-    top: var(--corner-element-offset);
-    right: var(--corner-element-offset);
-    border-inline-end: 1px solid var(--decor-color);
-    border-block-start: 1px solid var(--decor-color);
-}
-
-.footer::after {
-    content: '';
-    position: absolute;
-    inline-size: 26px;
-    block-size: 26px;
-    left: var(--corner-element-offset);
-    bottom: var(--corner-element-offset);
-    border-inline-start: 1px solid var(--decor-color);
-    border-block-end: 1px solid var(--decor-color);
 }
 
 /* footer--end */
