@@ -80,7 +80,7 @@
 .header {
     grid-template-rows: 2fr min-content 2fr;
     position: relative;
-    block-size: min(var(--block-size), 100vh);
+    block-size: max(var(--block-size), 100vh);
     gap: initial;
 }
 
@@ -103,8 +103,7 @@
     box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
-.header::before,
-.footer::before {
+.decorated-zone::before {
     content: '';
     position: absolute;
     inline-size: 26px;
@@ -115,8 +114,7 @@
     border-block-start: var(--corner-border);
 }
 
-.header::after,
-.footer::after {
+.decorated-zone::after {
     content: '';
     position: absolute;
     inline-size: 26px;
@@ -212,7 +210,7 @@
 .footer {
     position: relative;
     justify-content: center;
-    block-size: min(var(--block-size), 100vh);
+    block-size: max(var(--block-size), 100vh);
     gap: initial;
 }
 
